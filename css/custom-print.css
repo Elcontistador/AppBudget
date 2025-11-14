@@ -1,0 +1,8 @@
+#genPDF, #accordionSidebar, #addReg, #prevMonth, #nextMonth, .btn-danger, .masquer-actions {
+    display: none;
+}
+
+#dateShowed {
+    font-size: 30px;
+    font-weight: bold;
+}

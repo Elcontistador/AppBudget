@@ -1,0 +1,18 @@
+{
+  "name": "appbudget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . --trace-deprecation"
+  },
+  "keywords": [],
+  "author": "HUMEAU Sebastien",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bootstrap-icons": "^1.13.1",
+    "express": "^5.1.0",
+    "nedb": "^1.8.0"
+  }
+}

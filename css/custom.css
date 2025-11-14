@@ -1,0 +1,72 @@
+/* définir la position du menu Top */
+#topMenuBtns {
+    position :absolute;
+    right: 20px;
+}
+
+/* définir la forme des boutons */
+.TopMenuBtn {
+    border : none; /* bordure non */
+    outline : none; /* pas de bordure du tout */
+    background: transparent; /* fond transparent */
+    margin: 0 5px; /* o marge haut et bas 5 marge gauche droite */
+    color: #4e73df; /* couleur du bouton */
+    -webkit-app-region: no-drag;   /* Propriété pour le déplacement de la fenêtre désactivé pour les boutons*/
+}
+
+#TopMenu {
+    /* Paramétrage de l'id topMenu */
+    -webkit-user-select: none;  /* Propriété pour les navigateurs basés sur WebKit */
+    -webkit-app-region: drag;   /* Propriété pour le déplacement de la fenêtre */
+    -moz-user-select: none;     /* Propriété pour Firefox */
+    -ms-user-select: none;      /* Propriété pour Internet Explorer/Microsoft Edge */
+    user-select: none;          /* Propriété standard pour tous les navigateurs modernes */
+}
+
+.pull-right {
+    float: right;
+}
+
+.mr{
+    margin-right: 15px;
+}
+
+.ml {
+    margin-left: 15px;
+}
+
+#dateSelector {
+    text-align: center;
+    color: #121213; /* couleur */
+}
+
+#prevMonth, #nextMonth {
+    border : none; /* bordure non */
+    outline : none; /* pas de bordure du tout */
+    background: transparent; /* fond transparent */
+    margin: 0 5px; /* o marge haut et bas 5 marge gauche droite */
+    -webkit-app-region: no-drag;   /* Propriété pour le déplacement de la fenêtre désactivé pour les boutons*/ 
+}
+
+#dateSelector2 {
+    text-align: right;
+    margin-bottom: 15px;
+    color: #121213; /* couleur */
+}
+
+#prevMonth2, #nextMonth2 {
+    border : none; /* bordure non */
+    outline : none; /* pas de bordure du tout */
+    background: transparent; /* fond transparent */
+    margin: 0 5px; /* o marge haut et bas 5 marge gauche droite */
+    -webkit-app-region: no-drag;   /* Propriété pour le déplacement de la fenêtre désactivé pour les boutons*/ 
+}
+
+.badge-large-font {
+  font-size: 1.25rem; /* Ou toute autre valeur souhaitée, comme 18px, 1.5em, etc. */
+}
+
+.icon-maison {
+  font-size: 1.25rem; /* Définissez la taille de l'icône en pixels */
+  /* ou en 'em' pour une taille relative */
+}
