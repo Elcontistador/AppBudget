@@ -1,0 +1,9 @@
+# Ignorer les dépendances Node.js
+node_modules/
+
+# Ignorer les fichiers log
+*.log
+
+# Ignorer les fichiers de compilation
+dist/
+build/
